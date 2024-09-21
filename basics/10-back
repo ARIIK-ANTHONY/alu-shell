@@ -1,7 +1,14 @@
 #!/bin/bash
+
+# List all files in the current directory
 echo ".:"
 ls -la
+
+# List all files in the parent directory
 echo -e "\n..:"
 ls -la ..
+
+# List all files in the /boot directory
 echo -e "\n/boot:"
 ls -la /boot
+
