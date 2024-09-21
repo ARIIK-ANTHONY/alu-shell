@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A1 . .. /boot
+ls -1 . .. /boot | grep -v '^\.'
