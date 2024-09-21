@@ -1,7 +1,2 @@
 #!/bin/bash
-
-# Change to the user's home directory
-cd $HOME
-
-# Optionally, print the current directory to confirm
-pwd
+cd ~ $HOME
