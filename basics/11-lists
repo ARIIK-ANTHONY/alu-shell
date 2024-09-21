@@ -1,2 +1,13 @@
 #!/bin/bash
+
+# List all files (including hidden) in the current directory
+echo ".:"
 ls -la
+
+# List all files (including hidden) in the parent directory
+echo -e "\n..:"
+ls -la ..
+
+# List all files (including hidden) in the /boot directory
+echo -e "\n/boot:"
+ls -la /boot
