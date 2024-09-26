@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Best School" > "$file_name"
+echo "Best School" > "$Best School"
