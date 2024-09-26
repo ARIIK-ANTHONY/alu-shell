@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | grep ^- | head -n 11 | tail -n 10 | awk '{print $9}'
+ls -lt | grep ^- | awk 'NR>1 {print $9}' | head -n 10
