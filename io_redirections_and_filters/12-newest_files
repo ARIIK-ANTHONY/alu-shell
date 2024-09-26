@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt | grep ^- | head -n 11 | tail -n 10 | awk '{print $9}'
