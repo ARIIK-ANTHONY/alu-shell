@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -empty -exec sh -c 'for item; do echo "${item#./}"; done' sh {} +
+#!/bin/bash
+find . -empty -exec echo {} +
