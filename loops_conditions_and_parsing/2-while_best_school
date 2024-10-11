@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-for file in /alu-shell/loops_conditions_and_parsing/*
-do
-	echo "#!/usr/bin/env bash" > ${file}
-done
+# This script is displaying "Best School" 10 times
+
+count=1
+while [ $count -le 10 ]; do
+	  echo "Best School"
+	    ((count++))
+    done
